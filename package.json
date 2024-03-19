@@ -4,7 +4,8 @@
   "description": "clone do tabNews",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "author": "Cancastico",
   "license": "ISC",
