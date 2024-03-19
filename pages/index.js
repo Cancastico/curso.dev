@@ -1,6 +1,11 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 function Home(){
     return (
-        <h1>Um dia conquistaremos tudo aquilo que sonhamos meu amor </h1>
+        <>
+            <SpeedInsights/>
+            <h1>Um dia conquistaremos tudo aquilo que sonhamos meu amor </h1>
+        </>
     )
 }
 
